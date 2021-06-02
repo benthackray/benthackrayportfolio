@@ -94,7 +94,7 @@ main section {
 
 .portfolio img {
     width:100%;
-    margin: 5px;
+    justify-content: center;
 }
 
 .deck {
@@ -102,25 +102,38 @@ main section {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1 1 0;
+    justify-content: space-around;
+
 }
 
 #firstPhoto {
-    flex-basis: 100%;
+    flex-basis: 95%;
 }
 
 .card {
-    width: 50%;
+    width: 47%;
     height:fit-content;
     flex-basis: 1 1 0;
     font-size: 1rem;
     font-weight: bolder;
-    
+}
+
+footer {
+    background-color: var(--brown);
+    padding-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--orange);
+    font-size: 2rem;
 }
 
 @media screen and (max-width:992px) {
 
     .card{
-        flex-basis: 100%;
+        flex-basis: 95%;
     }
     
 }
@@ -132,6 +145,6 @@ main section {
     }
 
     .card{
-        flex-basis: 100%;
+        flex-basis: 95%;
     }
 }
