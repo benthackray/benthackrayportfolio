@@ -63,7 +63,7 @@ main {
     align-items: flex-start;
 }
 
-/* Bio and Contact */
+/* Bio */
 main aside {
     background-color: var(--purple);
     color: var(--aqua);
@@ -116,6 +116,34 @@ main section {
     flex-basis: 1 1 0;
     font-size: 1rem;
     font-weight: bolder;
+    justify-content: center;
+}
+
+.contact {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    justify-content: space-around;
+    background-color:var(--aqua);
+    color: var(--purple);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact h2 {
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.contact ul {
+    flex-basis: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bolder;
 }
 
 footer {
@@ -130,6 +158,7 @@ footer {
     font-size: 2rem;
 }
 
+/* Tablet viewing - stacks each project card by taking up 95% of the flex space */
 @media screen and (max-width:992px) {
 
     .card{
@@ -138,13 +167,10 @@ footer {
     
 }
 
+/* Mobile viewing - stacks bio section on top of portfolio */
 @media screen and (max-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     main {
         flex-direction: column;
     }
 
-    .card{
-        flex-basis: 95%;
-    }
 }
