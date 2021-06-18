@@ -142,8 +142,13 @@ main section {
     flex-basis: 450px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: bolder;
+}
+
+.contact ul li {
+    padding: 5px;
+    list-style: none;
 }
 
 footer {
@@ -173,4 +178,8 @@ footer {
         flex-direction: column;
     }
 
+
+    .contact ul {
+        flex-direction: column;
+    }
 }
