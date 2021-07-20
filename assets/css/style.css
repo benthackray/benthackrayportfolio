@@ -139,7 +139,7 @@ main section {
 }
 
 .contact ul {
-    flex-basis: 450px;
+    /* flex-basis: 450px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
