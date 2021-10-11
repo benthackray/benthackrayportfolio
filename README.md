@@ -6,7 +6,7 @@ This project was to create a professional portfolio for employers to view and to
 
 I organized the sections into three boxes, putting the bio to the left, the projects to the right, and the contacts below.  
 
-UPDATED: I now have links to three of my projects, my github profile, my linkedin profile and my resume
+UPDATED: I now have links to five of my projects, my github profile, my linkedin profile and my resume
 
 ## Installation
 
